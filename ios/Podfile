@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+target 'review' do
+  pod 'Yoga', path: '../node_modules/react-native/ReactCommon/yoga/'
+  pod 'React', path: '../node_modules/react-native/', :subspecs => [
+    'DevSupport',
+  ]
+  pod 'react-native-amap3d', path: '../node_modules/react-native-amap3d/'
+end

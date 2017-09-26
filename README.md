@@ -1,6 +1,5 @@
 # review
-
-A Clojure library designed to ... well, that part is up to you.
+用一门函数式的语言写 react, 的确是比较爽.
 
 ## Usage
 

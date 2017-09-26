@@ -1,0 +1,31 @@
+{
+  "name": "review",
+  "interface": "reagent6",
+  "envRoots": {
+    "dev": "env/dev",
+    "prod": "env/prod"
+  },
+  "modules": [
+    "react-navigation",
+    "react-native-vector-icons/FontAwesome",
+    "@bam.tech/react-native-root-siblings",
+    "react-native-fast-image",
+    "react-native-amap3d",
+    "echarts",
+    "react-native-progress",
+    "react-native-image-crop-picker"
+  ],
+  "imageDirs": [
+    "images"
+  ],
+  "platforms": {
+    "ios": {
+      "host": "localhost",
+      "modules": []
+    },
+    "android": {
+      "host": "localhost",
+      "modules": []
+    }
+  }
+}

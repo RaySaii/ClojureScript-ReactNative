@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "nativePackage": true,
+  "name": "echarts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": ""
+}
